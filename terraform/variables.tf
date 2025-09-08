@@ -25,7 +25,7 @@ variable "instance_subnet_id" {
 
 variable "instance_type" {
   description = "The Instance type"
-  default     = "t2.micro"
+  default     = "t2.medium"
 }
 
 variable "s3_bucket_name" {
